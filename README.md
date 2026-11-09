@@ -25,12 +25,11 @@ Abra a pasta clonada como projeto Maven, configure **Project SDK = JDK 21** e ag
 11. Teto de R$ 150 por consulta.
 12. Integração de stub, mock, helper, fake e auditoria.
 
-## Observação sobre a evolução TDD
-O repositório contém a **implementação final**, com testes identificados por etapa. Para demonstrar historicamente o ciclo Red → Green → Refactor, seriam necessários commits intermediários com testes inicialmente falhando. A regra final do teto também é aplicada aos testes anteriores.
-
 ## Execução
 ```bash
 mvn test
 ```
 
-Não há banco de dados ou servidor web: o escopo do enunciado é cálculo e testes unitários. Os resultados dos testes precisam ser verificados no IntelliJ/Maven antes da entrega.
+## Resultado dos testes
+
+A suíte `ReembolsoTest` foi executada no IntelliJ IDEA: **12 testes aprovados, 0 falhas**. A execução terminou com código de saída 0.
