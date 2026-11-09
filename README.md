@@ -4,7 +4,7 @@
 Sistema de cálculo de reembolso de consultas com **Java 21, Maven, JUnit 5 e Mockito**, cobrindo as 12 etapas do enunciado.
 
 ## IntelliJ IDEA
-Abra a pasta clonada como projeto Maven, configure **Project SDK = JDK 21** e aguarde o Maven importar dependências. Execute a classe de testes `ReembolsoTest` ou use `mvn test` no terminal.
+O projeto utiliza Java, Maven, JUnit 5 e Mockito. Para executar os testes no IntelliJ IDEA, configure o JDK 21 e execute a classe `ReembolsoTest` ou o comando `mvn test`.
 
 ## Organização
 - `src/main/java/br/edu/tp2/`: classes de produção e interfaces.
